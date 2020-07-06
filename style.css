@@ -51,7 +51,7 @@ h1 {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     position: absolute;
-    bottom: 50px;
+    bottom: 10px;
     left: 0;
     width: 100%;
     margin: auto;
@@ -78,25 +78,28 @@ h1 {
 .contact-widgets button:nth-child(1):before {
     content: 'Text';
     position: absolute;
-    top: 90px;
-    font-size: 1.9em;
+    bottom: 11px;
+    font-size: 1em;
     margin: auto;
+    color: #fff;
 }
 
 .contact-widgets button:nth-child(2):before {
     content: 'Call';
     position: absolute;
-    top: 90px;
-    font-size: 1.9em;
+    bottom: 11px;
+    font-size: 1em;
     margin: auto;
+    color: #fff;
 }
 
 .contact-widgets button:nth-child(3):before {
     content: 'Email';
     position: absolute;
-    top: 90px;
-    font-size: 1.9em;
+    bottom: 11px;
+    font-size: 1em;
     margin: auto;
+    color: #fff;
 }
 
 .contact-widgets button {
@@ -107,6 +110,7 @@ h1 {
 .contact-widgets a img {
     width: 35px !important;
     height: auto;
+    margin-bottom: 10px;
 }
 
 /* Topper */
