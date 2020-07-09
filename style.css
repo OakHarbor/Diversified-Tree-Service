@@ -177,6 +177,10 @@ h1 {
     position: absolute !important;
 }
 
+select {
+    -webkit-appearance: none;
+}
+
 .contact-topper {
     font-weight: 700;
     font-size: 1.667em;
@@ -382,10 +386,6 @@ select {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-}
-
-select {
-    -webkit-appearance: none;
 }
 
 
