@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/style.css">
+    <!-- jQuery -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800,900-Roboto&display=swap" rel="stylesheet">
 
@@ -12,17 +14,31 @@
 </head>
 <body>
 
-    <h1>Diversified Tree Services</h1>
+    <div class="dark"></div>
 
     <section id="landing">
         <div class="card container">
-            <div class="topper">
+
+            <div class="pop-in">
                 <img src="/headshot.jpg" alt="">
-                <h2>Nathan Gabriel</h2>
-                <a href="tel:619-547-3687">(619) 547-3687</a>
-                <p>Call or text Nathan Now!
-                </p>
+                <div class="pop-in-group">
+                    <p>Call or text Nathan now for an estimate.</p>
+                    <a href="tel:619-547-3687">(619) 547-3687</a>
+                </div>
             </div>
+
+            <h1>Diversified Tree Services</h1>
+            
+            <div class="montage">
+                <img src="image-1-crop.jpg" alt="" width="100" height="100">
+                <img src="image-2-crop.jpg" alt="" width="100" height="100">
+                <img src="image-3-crop.jpg" alt="" width="100" height="100">
+                <img src="image-4-crop.jpg" alt="" width="100" height="100">
+            </div>
+
+            <button class="services-button">
+                Services Needed
+            </button>
 
             <div class="contact-widgets">
                 <button>
@@ -35,14 +51,35 @@
                         <img src="/telephone.svg" alt="">
                     </a>
                 </button>
-                <button>
-                    <a href="mailto:diversifiedfenceinc@gmail.com">
-                        <img src="/email.svg" alt="">
-                    </a>
-                </button>
             </div>
         </div>
+        <form id="contact" name="Contact Form" method="post" data-netlify="true">
+            <h3 class="contact-topper"><span>DROP</span> US A LINE</h3>
+        
+            <input aria-label="name" name="name" placeholder="Name" type="text" tabindex="1" required>
+            <input aria-label="address" name="address" placeholder="Address" type="text" tabindex="1" required>
+            <input aria-label="phone number" name="phone" placeholder="Your Phone Number" type="tel" tabindex="3" required>
+            <select name="services" id="services">
+                <option value="Servcies Needed" disabled selected>Services Needed</option>
+                <option value="Tree Removal">Tree Removal</option>
+                <option value="Tree Trim">Tree Trim</option>
+                <option value="Tree Installation">Tree Installation</option>
+                <option value="Yard Maintenance">Yard Maintenance</option>
+                <option value="Turf Installation">Turf Installation</option>
+                <option value="Sod Installation">Sod Installation</option>
+                <option value="Paver or Concrete Installation">Paver or Concrete Installation</option>
+                <option value="Other">Other</option>
+            </select>
+            <textarea aria-label="write your message" name="message" placeholder="Type your Message Here...." tabindex="5" required></textarea>
+        
+            <p class="form-submit">
+                <a class="go-back" href="#">Go Back</a>
+                <button name="submit" type="submit" id="contact-submit" class="primary button-solid" data-submit="...Sending">Submit</button>
+            </p>
+        </form>
     </section>
+
+    <script defer src="/app.js"></script>
     
 </body>
 </html>
