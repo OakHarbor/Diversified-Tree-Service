@@ -384,6 +384,10 @@ select {
             justify-content: flex-end;
 }
 
+select {
+    -webkit-appearance: none;
+}
+
 
 @media screen and (min-width: 310px) and (max-width: 374px) {
 
