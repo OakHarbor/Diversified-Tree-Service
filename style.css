@@ -74,7 +74,8 @@ a:hover {
 
 .island {
     height: 30px;
-    margin: 8px auto;
+    margin: 0px auto 0 10px;
+    transform: translateY(5px);
 }
 
 #dark {
@@ -218,7 +219,6 @@ a:hover {
     position: relative;
     font-weight: normal;
     font-family: 'Raleway', sans-serif;
-    margin-bottom: 50px;
 }
 
 .desktop-call {
@@ -973,9 +973,9 @@ select:-moz-focusring {
 
     100% {
         opacity: 1;
-        -webkit-transform: translatey(-50PX);
-        -ms-transform: translatey(-50PX);
-            transform: translatey(-50PX);
+        -webkit-transform: translatey(-80PX);
+        -ms-transform: translatey(-80PX);
+            transform: translatey(-80PX);
     }
 }
 
@@ -990,9 +990,9 @@ select:-moz-focusring {
 
     100% {
         opacity: 1;
-        -webkit-transform: translatey(-50PX);
-        -ms-transform: translatey(-50PX);
-            transform: translatey(-50PX);
+        -webkit-transform: translatey(-80PX);
+        -ms-transform: translatey(-80PX);
+            transform: translatey(-80PX);
     }
 }
 
