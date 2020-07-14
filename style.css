@@ -204,6 +204,7 @@ a:hover {
 	overflow-y: hidden;
     margin: 0;
     line-height: 1.3em;
+    position: relative;
 }
 
 .heroText h1:after {
@@ -213,6 +214,7 @@ a:hover {
     width: 20px !important;
     position: absolute;
     margin-left: 6px;
+    bottom: 10px;
 }
 
 .heroText p {
