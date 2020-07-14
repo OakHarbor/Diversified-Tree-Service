@@ -78,6 +78,11 @@ a:hover {
     transform: translateY(5px);
 }
 
+.heroText h1 span {
+    font-size: .6em;
+    font-weight: normal;
+}
+
 #dark {
     position: absolute;
     height: 100%;
