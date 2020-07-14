@@ -993,11 +993,54 @@ select:-moz-focusring {
 
     .heroText h2 {
         font-size: 1em;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
+    }
+
+    .about-button {
+        height: 45px;
+        width: 45px;
+    }
+
+    .circle {
+        height: 45px;
+        width: 45px;
+    }
+
+    #Capa_1 {
+        height: 20px !important;
+    }
+
+    @-webkit-keyframes popIn {
+        0% {
+            bottom: -1000px;
+        }
+
+        100% {
+            bottom: 0px;
+        }
+        
+    }
+
+    @keyframes popIn {
+        0% {
+            bottom: -1000px;
+        }
+
+        100% {
+            bottom: 50px;
+        }
     }
 
     .pop-in p {
         font-size: .8em;
+    }
+
+    .info {
+        bottom: 35px;
+    }
+
+    .social {
+        bottom: 10px;
     }
 
     @-webkit-keyframes fadeIn {
