@@ -944,7 +944,17 @@ select:-moz-focusring {
 
 @media screen and (min-width: 310px) and (max-width: 374px) {
 
-    
+    .heroText h1 {
+        font-size: 1.5em;
+    }
+
+    .heroText h2 {
+        font-size: 1em;
+    }
+
+    .pop-in p {
+        font-size: .8em;
+    }
 
 }
 
