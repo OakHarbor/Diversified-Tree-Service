@@ -517,7 +517,7 @@ a:hover {
     }
 
     100% {
-        bottom: 40px;
+        bottom: 60px;
     }
 }
 
@@ -527,7 +527,7 @@ a:hover {
     }
 
     100% {
-        bottom: 40px;
+        bottom: 60px;
     }
 }
 
@@ -960,7 +960,7 @@ select:-moz-focusring {
 .info {
     color: #fff;
     position: absolute;
-    bottom: 25px;
+    bottom: 45px;
     z-index: 10;
     width: 90%;
     margin: auto;
@@ -971,7 +971,7 @@ select:-moz-focusring {
 .social {
     display: block;
     position: absolute;
-    bottom: 6px;
+    bottom: 20px;
     z-index: 10;
     margin: auto;
     width: 90%;
