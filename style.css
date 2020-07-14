@@ -199,6 +199,10 @@ a:hover {
     line-height: 1.3em;
 }
 
+.heroText p {
+    color: #fff;
+}
+
 .heroText h2 {
 	color: #fff;
 	font-size: 1.5em;
