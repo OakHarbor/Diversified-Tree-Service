@@ -78,11 +78,6 @@ a:hover {
     transform: translateY(5px);
 }
 
-.heroText h1 span {
-    font-size: .6em;
-    font-weight: normal;
-}
-
 #dark {
     position: absolute;
     height: 100%;
@@ -209,6 +204,15 @@ a:hover {
 	overflow-y: hidden;
     margin: 0;
     line-height: 1.3em;
+}
+
+.heroText h1:after {
+    content: url("/copy.svg");
+    font-size: .6em;
+    font-weight: normal;
+    width: 20px !important;
+    position: absolute;
+    margin-left: 6px;
 }
 
 .heroText p {
