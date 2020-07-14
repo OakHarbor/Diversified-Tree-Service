@@ -442,6 +442,19 @@ a:hover {
     z-index: 10;
 }
 
+.services-button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.services-button a {
+    background: #fff;
+    color: #000 !important;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: .9em !important;
+}
+
 .pop-in {
     position: absolute;
     background: rgb(114,209,49);
@@ -464,6 +477,7 @@ a:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    flex-wrap: wrap;
     -webkit-animation-name: popIn;
             animation-name: popIn;
     -webkit-animation-duration: 1s;
@@ -689,7 +703,7 @@ select.classic:focus {
     max-width: 450px;
     margin: 0 10px;
     padding: 25px 15px;
-    z-index: 2;
+    z-index: 1000;
     visibility: hidden;
     -webkit-transition: .3s ease-out;
     -o-transition: .3s ease-out;
@@ -711,10 +725,10 @@ select.classic:focus {
     top: 0;
     left: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
     height: 0%;
     width: 100%;
-    z-index: 2;
+    z-index: 10;
     -webkit-transition: .3s ease-out;
     -o-transition: .3s ease-out;
     transition: .3s ease-out;
