@@ -167,8 +167,8 @@ a:hover {
     100% {
         opacity: 1;
         -webkit-transform: translatey(-80PX);
-        -ms-transform: translatey(-90PX);
-            transform: translatey(-90PX);
+        -ms-transform: translatey(-100PX);
+            transform: translatey(-100PX);
     }
 }
 
@@ -184,8 +184,8 @@ a:hover {
     100% {
         opacity: 1;
         -webkit-transform: translatey(-80PX);
-        -ms-transform: translatey(-90PX);
-            transform: translatey(-90PX);
+        -ms-transform: translatey(-100PX);
+            transform: translatey(-100PX);
     }
 }
 
