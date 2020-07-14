@@ -51,9 +51,10 @@ a:hover {
 #hero {
     min-height: calc(100vh - 50px);
     width: 100%;
-    background: url("image-6.jpg");
+    background: url("image-6-bottom.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
     color: #fff;
     position: relative;
     display: -webkit-box;
@@ -166,7 +167,7 @@ a:hover {
 
     100% {
         opacity: 1;
-        -webkit-transform: translatey(-80PX);
+        -webkit-transform: translatey(-100PX);
         -ms-transform: translatey(-100PX);
             transform: translatey(-100PX);
     }
@@ -183,7 +184,7 @@ a:hover {
 
     100% {
         opacity: 1;
-        -webkit-transform: translatey(-80PX);
+        -webkit-transform: translatey(-100PX);
         -ms-transform: translatey(-100PX);
             transform: translatey(-100PX);
     }
@@ -212,7 +213,7 @@ a:hover {
     position: relative;
     font-weight: normal;
     font-family: 'Raleway', sans-serif;
-    margin-bottom: 50pz;
+    margin-bottom: 50px;
 }
 
 .desktop-call {
@@ -955,6 +956,40 @@ select:-moz-focusring {
     .pop-in p {
         font-size: .8em;
     }
+
+    @-webkit-keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translatey(0PX);
+        -ms-transform: translatey(0PX);
+            transform: translatey(0PX);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translatey(-80PX);
+        -ms-transform: translatey(-80PX);
+            transform: translatey(-80PX);
+    }
+}
+
+@keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translatey(0PX);
+        -ms-transform: translatey(0PX);
+            transform: translatey(0PX);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translatey(-80PX);
+        -ms-transform: translatey(-80PX);
+            transform: translatey(-80PX);
+    }
+}
 
 }
 
