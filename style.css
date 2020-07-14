@@ -35,6 +35,11 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
+button:hover,
+a:hover {
+    cursor: pointer;
+}
+
 /*-- -------------------------- -->
 <---           LANDING          -->
 <--- -------------------------- -*/
@@ -81,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 .dark2 {
     position: absolute;
     background: #000;
-    z-index: 100;
+    z-index: 2;
     height: 100%;
     width: 100%;
     opacity: 1;
