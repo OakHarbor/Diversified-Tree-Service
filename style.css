@@ -72,6 +72,11 @@ a:hover {
             justify-content: flex-start;
 }
 
+.island {
+    height: 30px;
+    margin: 8px auto;
+}
+
 #dark {
     position: absolute;
     height: 100%;
@@ -968,9 +973,9 @@ select:-moz-focusring {
 
     100% {
         opacity: 1;
-        -webkit-transform: translatey(-80PX);
-        -ms-transform: translatey(-80PX);
-            transform: translatey(-80PX);
+        -webkit-transform: translatey(-50PX);
+        -ms-transform: translatey(-50PX);
+            transform: translatey(-50PX);
     }
 }
 
@@ -985,9 +990,9 @@ select:-moz-focusring {
 
     100% {
         opacity: 1;
-        -webkit-transform: translatey(-80PX);
-        -ms-transform: translatey(-80PX);
-            transform: translatey(-80PX);
+        -webkit-transform: translatey(-50PX);
+        -ms-transform: translatey(-50PX);
+            transform: translatey(-50PX);
     }
 }
 
