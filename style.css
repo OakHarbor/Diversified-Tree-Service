@@ -664,6 +664,7 @@ a:hover {
 
 .image-group img {
     width: 50%;
+    height: auto;
     display: inline-block;
     margin: 0;
     float: left;
