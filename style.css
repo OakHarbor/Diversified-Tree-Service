@@ -511,7 +511,7 @@ a:hover {
             animation-fill-mode: forwards;
     -webkit-animation-iteration-count: 1;
             animation-iteration-count: 1;
-    z-index: 2;
+    z-index: 4;
 }
 
 @-webkit-keyframes popIn {
@@ -620,6 +620,55 @@ a:hover {
         -webkit-transform: scale(1);
                 transform: scale(1);
     }
+}
+
+#portfolio {
+    position: absolute;
+    z-index: -10;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.close {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: var(--primary);
+    border: none;
+    color: #fff;
+}
+
+#portfolio.clicked {
+    z-index: 1000;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.portfolio {
+    position: absolute;
+    top: -30px;
+    z-index: 2000 !important;
+    padding: 10px 20px;
+}
+
+.image-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.image-group img {
+    width: 50%;
 }
 
 .call-now img {
