@@ -656,6 +656,14 @@ a:hover {
     transition: .3s ease-in-out;
 }
 
+.image-group {
+    overflow-x: scroll;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
 .portfolio {
     z-index: 2000 !important;
     padding: 10px 20px;
@@ -666,10 +674,9 @@ a:hover {
 
 .image-group img {
     width: 50%;
-    height: auto;
+    max-height: 207px;
     display: inline-block;
     margin: 0;
-    float: left;
 }
 
 .call-now img {
