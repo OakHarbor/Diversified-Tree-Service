@@ -1107,6 +1107,8 @@ select:-moz-focusring {
 
     .info {
         bottom: 35px;
+        font-size: .8em;
+        bottom: 43px;
     }
 
     .social {
