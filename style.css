@@ -1253,8 +1253,9 @@ select:-moz-focusring {
     }
 
     #home-h {
-        width: 550px;
+        width: 590px;
         font-size: 2.75em;
+        overflow-y: hidden !important;
     }
 
     #home-p {
