@@ -227,7 +227,7 @@ a:hover {
 	font-size: 1em;
 	text-align: center;
 	line-height: 1.6em;
-    padding: 30px 0;
+    padding: 20px 0;
     position: relative;
     font-weight: normal;
     font-family: 'Raleway', sans-serif;
@@ -644,7 +644,7 @@ a:hover {
 }
 
 .license {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #portfolio.clicked {
