@@ -672,6 +672,7 @@ a:hover {
 
 .image-group img {
     width: 50%;
+    max-height: auto;
 }
 
 .call-now img {
