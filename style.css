@@ -1245,6 +1245,11 @@ select:-moz-focusring {
 /* Desktop */
 @media screen and (min-width: 1025px) {
 
+    #hero {
+        background-position: center;
+        min-height: 100vh;
+    }
+
     .heroText {
         width: 700px;
         -webkit-transform: translateY(-20px);
@@ -1270,6 +1275,30 @@ select:-moz-focusring {
 
     .desktop-call {
         display: none;
+    }
+
+    #portfolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .image-group {
+        width: 620px;
+        margin: auto !important;
+        overflow-x: hidden;
+    }
+
+    .image-group img {
+        height: 300px;
+        width: 300px;
+        max-height: 300px;
+    }
+
+    .social, .info {
+        width: 321px;
+        margin: auto !important;
     }
 
     /*-- -------------------------- -->
